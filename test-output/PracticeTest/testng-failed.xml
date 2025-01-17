@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PracticeTest]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="AChromee"/>
+  <test thread-count="5" name="BrowserTest(failed)">
+    <classes>
+      <class name="com.qa.TestLayer.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verfiyLoginFunctionality"/>
+        </methods>
+      </class> <!-- com.qa.TestLayer.LoginPageTest -->
+    </classes>
+  </test> <!-- BrowserTest(failed) -->
+</suite> <!-- Failed suite [PracticeTest] -->
